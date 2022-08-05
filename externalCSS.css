@@ -1,0 +1,104 @@
+<style>
+div {
+        width: 300px;
+    }
+body{
+  border-style: solid;
+  border-color: #101111;
+  border-radius: 50px;
+  border-width: 5px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+     
+    h1{
+        color: #d1e141;
+  text-align: center;
+    }
+    h2 {
+        color: #820000;
+text-align: center;
+font-style: italic;
+    }
+h7{
+color:#4B0082;
+font: italic bold 15px/30px Calibri, sans-serif;
+}
+h3{
+color:#4B0082;
+}
+     
+    hr {
+        position: relative;
+        top: none;
+        border: none;
+        height: 5px;
+        background: #4169E1;
+        margin-bottom: none;
+    }
+.Recipe{
+border-style: solid;
+  border-color: solid rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.RecipeIN{
+border-style: solid;
+  border-color: #4B0082;
+  border-radius: 10px;
+  border-width: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+p,ul{
+color:#4B0082;
+margin-left:4%;
+font: 14px Calibri, sans-serif;
+}
+.hero{
+  display:flex;
+  justify-content:space-evenly;
+}
+img {
+position: static;
+top: 20px;
+width: 80vh;
+margin-bottom: 20px;
+}
+
+@media(max-width:880px){
+  .hero{
+    flex-direction:column;
+    align-items:center;
+  }
+img {
+width: 0vh;
+}
+body{
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  border-width: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+hr {
+        position: relative;
+        top: none;
+        border: none;
+        height: 0px;
+        background: #4169E1;
+        margin-bottom: none;
+    }
+}
+</style>
